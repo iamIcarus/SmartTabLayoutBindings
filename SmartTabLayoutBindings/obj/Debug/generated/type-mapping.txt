@@ -1,0 +1,16 @@
+com/ogaclejapan/smarttablayout/BuildConfig = Com.Ogaclejapan.Smarttablayout.BuildConfig
+  <init>()V = .ctor()
+  APPLICATION_ID = ApplicationId
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  FLAVOR = Flavor
+  VERSION_CODE = VersionCode
+  VERSION_NAME = VersionName
+com/ogaclejapan/smarttablayout/SmartTabIndicationInterpolator = Com.Ogaclejapan.Smarttablayout.SmartTabIndicationInterpolator
+  <init>()V = .ctor()
+  LINEAR = Linear
+  SMART = Smart
+  getLeftEdge(F)F = GetLeftEdge(float)
+  getRightEdge(F)F = GetRightEdge(float)
+  getThickness(F)F = GetThickness(float)
+  of(I)Lcom/ogaclejapan/smarttablayout/SmartTabIndicationInterpolator; = Of(int)

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.ogaclejapan.smarttablayout">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.ogaclejapan.smarttablayout.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.ogaclejapan.smarttablayout&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.6.1&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmartTabIndicationInterpolator" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SmartTabIndicationInterpolator" static="false" type="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" visibility="public">
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="getLeftEdge" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getRightEdge" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getThickness" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="of" native="false" return="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="LINEAR" static="true" transient="false" type="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" type-generic-aware="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SMART" static="true" transient="false" type="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" type-generic-aware="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" extends-generic-aware="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" final="false" name="SmartTabIndicationInterpolator.LinearIndicationInterpolator" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SmartTabIndicationInterpolator.LinearIndicationInterpolator" static="false" type="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator.LinearIndicationInterpolator" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLeftEdge" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRightEdge" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" extends-generic-aware="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator" final="false" name="SmartTabIndicationInterpolator.SmartIndicationInterpolator" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SmartTabIndicationInterpolator.SmartIndicationInterpolator" static="false" type="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator.SmartIndicationInterpolator" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SmartTabIndicationInterpolator.SmartIndicationInterpolator" static="false" type="com.ogaclejapan.smarttablayout.SmartTabIndicationInterpolator.SmartIndicationInterpolator" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLeftEdge" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRightEdge" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmartTabLayout.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmartTabLayout.InternalTabClickListener" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SmartTabLayout.OnScrollChangeListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onScrollChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SmartTabLayout.OnTabClickListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onTabClicked" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SmartTabLayout.TabColorizer" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getDividerColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getIndicatorColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="SmartTabStrip" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmartTabStrip.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmartTabStrip.SimpleTabColorizer" static="true" visibility="">
+<implements name="com.ogaclejapan.smarttablayout.SmartTabLayout.TabColorizer" name-generic-aware="com.ogaclejapan.smarttablayout.SmartTabLayout.TabColorizer">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="true" name="getDividerColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getIndicatorColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="Utils" static="false" visibility=""/>
+</package>
+</api>
