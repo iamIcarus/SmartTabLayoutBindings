@@ -1,6 +1,0 @@
-/Users/kyriakos/Documents/Projects/SmartTabLayoutBindings/SmartTabLayoutBindings/obj/Debug/MonoAndroid,Version=v7.1.AssemblyAttribute.cs
-/Users/kyriakos/Documents/Projects/SmartTabLayoutBindings/SmartTabLayoutBindings/obj/Debug/SmartTabLayoutBindings.obj.Debug.__AndroidLibraryProjects__.zip
-/Users/kyriakos/Documents/Projects/SmartTabLayoutBindings/SmartTabLayoutBindings/bin/Debug/SmartTabLayoutBindings.pdb
-/Users/kyriakos/Documents/Projects/SmartTabLayoutBindings/SmartTabLayoutBindings/bin/Debug/SmartTabLayoutBindings.dll
-/Users/kyriakos/Documents/Projects/SmartTabLayoutBindings/SmartTabLayoutBindings/obj/Debug/SmartTabLayoutBindings.dll
-/Users/kyriakos/Documents/Projects/SmartTabLayoutBindings/SmartTabLayoutBindings/obj/Debug/SmartTabLayoutBindings.pdb
